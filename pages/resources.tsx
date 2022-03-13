@@ -49,7 +49,7 @@ export default function Resources() {
 					</VStack>
 					<VStack spacing={2} bg={"gray.50"} p={10} w={300}>
 						<Heading size={"sm"}>Learning</Heading>
-						<Text size={"sm"} color={"gray.500"} textAlign={"center"}>Build upon your fundamental knowledge</Text>
+						<Text size={"sm"} color={"gray.500"} textAlign={"center"}>Bring your knowledge to action</Text>
 						<VStack spacing={3}>
 							{learning.map(f => <ClickableButton key={f}>
 								{f}

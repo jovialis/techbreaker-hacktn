@@ -20,7 +20,7 @@ export default function Resources() {
 	const learning = [
 		"CodeHack",
 		"Vandy Hacks",
-		"Nashville Software School Info Session",
+		"Nashville Software School Session",
 		"HackTN"
 	];
 

@@ -10,17 +10,27 @@ export default function Resources() {
 
 	const fundamentals = [
 		"EdX - Harvard CS50",
-		"Something Else"
+		"Algorithms I - Princeton",
+		"Programming For Everybody",
+		"Algorithms - Stanford",
+		"Data Structures & Algorithms Specialization - Colorado Boulder",
+		"Data Structures & Algorithms - Google Engineer"
 	];
 
 	const learning = [
 		"CodeHack",
-		"Something else"
+		"Vandy Hacks",
+		"Nashville Software School Info Session",
+		"HackTN"
 	];
 
 	const resources = [
 		"Books",
-		"Something else"
+		"Cracking the Coding Interview",
+		"Algorithms Unlocked",
+		"Slack Server",
+		"Data Structures & Algorithms Made Easy",
+		"Programming Throwdown"
 	]
 
 	return <>

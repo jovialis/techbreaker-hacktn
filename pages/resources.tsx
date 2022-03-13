@@ -13,7 +13,7 @@ export default function Resources() {
 		"Algorithms I - Princeton",
 		"Programming For Everybody",
 		"Algorithms - Stanford",
-		"Data Structures & Algorithms Specialization - Colorado Boulder",
+		"Programming & Data Structures - NYU",
 		"Data Structures & Algorithms - Google Engineer"
 	];
 

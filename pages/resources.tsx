@@ -32,7 +32,7 @@ export default function Resources() {
 						<Heading size={"sm"}>Fundamentals</Heading>
 						<Text size={"sm"} color={"gray.500"} textAlign={"center"}>Learn the fundamentals of SWE</Text>
 						<VStack spacing={3}>
-							{fundamentals.map(f => <ClickableButton>
+							{fundamentals.map(f => <ClickableButton key={f}>
 								{f}
 							</ClickableButton>)}
 						</VStack>
@@ -41,7 +41,7 @@ export default function Resources() {
 						<Heading size={"sm"}>Learning</Heading>
 						<Text size={"sm"} color={"gray.500"} textAlign={"center"}>Build upon your fundamental knowledge</Text>
 						<VStack spacing={3}>
-							{learning.map(f => <ClickableButton>
+							{learning.map(f => <ClickableButton key={f}>
 								{f}
 							</ClickableButton>)}
 						</VStack>
@@ -50,7 +50,7 @@ export default function Resources() {
 						<Heading size={"sm"}>Resources</Heading>
 						<Text size={"sm"} color={"gray.500"} textAlign={"center"}>Guides to help you throughout your journey</Text>
 						<VStack spacing={3}>
-							{resources.map(f => <ClickableButton>
+							{resources.map(f => <ClickableButton key={f}>
 								{f}
 							</ClickableButton>)}
 						</VStack>

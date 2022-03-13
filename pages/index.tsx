@@ -112,9 +112,9 @@ export default function Survey() {
                         <VStack>
 	                        {i < questions.length - 1 ?
 		                        (questions[i].answers.map(a => (
-		                            <ClickableButton delay={true} onClick={scrollToBottom}>{a}</ClickableButton>
+		                            <ClickableButton key={i} delay={true} onClick={scrollToBottom}>{a}</ClickableButton>
 	                            ))) : (questions[i].answers.map(a => (
-				                        <ClickableButton delay={true} onClick={() => {
+				                        <ClickableButton key={i} delay={true} onClick={() => {
 					                        router.push('/results');
 				                        }}>{a}</ClickableButton>
 			                        ))

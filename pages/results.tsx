@@ -18,9 +18,11 @@ export default function ResultsPage() {
 			<VStack spacing={20}>
 				<VStack spacing={3}>
 					<Heading size={"lg"}>
+						{/* eslint-disable-next-line react/no-unescaped-entities */}
 						We think you're a natural Software Engineer (SWE)!
 					</Heading>
 					<Text color={"gray.500"} fontSize={20} mb={10}>
+						{/* eslint-disable-next-line react/no-unescaped-entities */}
 						Now, let's customize your roadmap to get you ready for jobs at Amazon, Facebook, Google, and more.
 					</Text>
 				</VStack>
@@ -33,7 +35,10 @@ export default function ResultsPage() {
 					colorScheme={"orange"}
 					disabled={!(budgetReady && timeframeReady && posReady)}
 					onClick={() => router.push('/resources')}
-				>Let's Pick Your Resources</Button>
+				>
+					{/* eslint-disable-next-line react/no-unescaped-entities */}
+					Let's Pick Your Resources
+				</Button>
 			</VStack>
 
 		</Center>
@@ -50,6 +55,7 @@ function Budget(props: ComponentProps) {
 	return <>
 		<VStack bg={"gray.50"} p={4} w={300}>
 			<Heading size={"sm"}>Your Budget</Heading>
+			{/* eslint-disable-next-line react/no-unescaped-entities */}
 			<Text fontSize={"sm"} color={"gray.500"} textAlign={"center"}>We'll connect you with opportunities within your means.</Text>
 			<VStack>
 				<ClickableButton onClick={() => props.setReady(true)}>Free</ClickableButton>

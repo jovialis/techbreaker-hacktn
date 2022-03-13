@@ -13,8 +13,8 @@ export default function Resources() {
 		"Algorithms I - Princeton",
 		"Programming For Everybody",
 		"Algorithms - Stanford",
-		"Programming & Data Structures - NYU",
-		"Data Structures & Algorithms - Google Engineer"
+		"Programming & Data Structures",
+		"Data Structures & Algorithms - Google"
 	];
 
 	const learning = [
@@ -25,7 +25,6 @@ export default function Resources() {
 	];
 
 	const resources = [
-		"Books",
 		"Cracking the Coding Interview",
 		"Algorithms Unlocked",
 		"Slack Server",

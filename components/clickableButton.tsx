@@ -1,5 +1,5 @@
 import {Button} from "@chakra-ui/react";
-import {useState} from "react";
+import React, {useState} from "react";
 
 /**
  * Created by jovialis (Dylan Hanson) on 3/13/22.
@@ -8,7 +8,7 @@ import {useState} from "react";
 export interface IClickableButton {
 	delay?: boolean
 	onClick?: () => void,
-	children: JSX.Element
+	children: React.ReactChild
 }
 
 export function ClickableButton(props: IClickableButton) {

@@ -28,7 +28,7 @@ export default function Resources() {
 		"Cracking the Coding Interview",
 		"Algorithms Unlocked",
 		"Slack Server",
-		"Data Structures / Algorithms Made Easy",
+		"Data Structures & Algorithms Easy",
 		"Programming Throwdown"
 	]
 
